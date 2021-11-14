@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountDown</title>
+</head>
+
+<body>
+
+    <script>
+        var board = document.createElement('div');
+        board.style.width = "500"
+        board.style.height = "200"
+        board.style.left = "500px"
+        board.style.marginTop = "200px"
+        board.style.top = "200px"
+        board.style.left = "500px"
+        board.style.textAlign = "center"
+        board.style.fontSize = "100px"
+        board.style.fontStyle = "italic"
+
+        count=function(){
+              board.innerText="Happy Birthday Ponraj Natarajan"
+          }
+          count0=function(){
+              board.innerText="0"
+              my=setTimeout(count,1000)
+          }
+          count1=function(){
+              board.innerText="1"
+              my=setTimeout(count0,1000)
+          }
+          count2=function(){
+              board.innerText="2"
+              my=setTimeout(count1,1000)
+          }
+          count3=function(){
+              board.innerText="3"
+              my=setTimeout(count2,1000)
+          }
+          count4=function(){
+              board.innerText="4"
+              my=setTimeout(count3,1000)
+          }
+          count5=function(){
+              board.innerText="5"
+              my=setTimeout(count4,1000)
+          }
+          count6=function(){
+              board.innerText="6"
+              my=setTimeout(count5,1000)
+          }
+          count7=function(){
+              board.innerText="7"
+              my=setTimeout(count6,1000)
+          }
+          count8=function(){
+              board.innerText="8"
+              my=setTimeout(count7,1000)
+          }
+          count9=function(){
+              board.innerText="9"
+              my=setTimeout(count8,1000)
+          }
+          count10=function(){
+              board.innerText="10"
+              my=setTimeout(count9,1000)
+          }
+          my=setTimeout(count10,1000)
+
+
+            document.body.appendChild(board);
+
+
+    </script>
+</body>
+
+</html>
